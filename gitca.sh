@@ -24,7 +24,7 @@ fi
 
 case "$1" in
     chatgpt)
-        CO_AUTHOR="ChatGPT <noreply@openai.com>"
+        CO_AUTHOR="ChatGPT <noreply@chatgpt.com>"
         ;;
     claude)
         CO_AUTHOR="Claude <noreply@anthropic.com>"
