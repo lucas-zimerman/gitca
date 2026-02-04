@@ -10,9 +10,9 @@ usage() {
     echo "Amends the current git commit with an AI co-author attribution."
     echo ""
     echo "Available options:"
-    echo "  chatgpt  - Co-authored-by: ChatGPT <noreply@openai.com>"
-    echo "  claude   - Co-authored-by: Claude <noreply@anthropic.com>"
-    echo "  cursor   - Co-authored-by: Cursor <cursoragent@cursor.com>"
+    echo "  chatgpt"
+    echo "  claude"
+    echo "  cursor"
     exit 1
 }
 
@@ -24,13 +24,13 @@ fi
 
 case "$1" in
     chatgpt)
-        CO_AUTHOR="ChatGPT <noreply+ai@openai.com>"
+        CO_AUTHOR="ChatGPT <noreply@openai.com>"
         ;;
     claude)
-        CO_AUTHOR="Claude <noreply+ai@anthropic.com>"
+        CO_AUTHOR="Claude <noreply@anthropic.com>"
         ;;
     cursor)
-        CO_AUTHOR="Cursor <cursoragent+ai@cursor.com>"
+        CO_AUTHOR="Cursor <cursoragent@cursor.com>"
         ;;
     *)
         echo "Error: Invalid option '$1'."
