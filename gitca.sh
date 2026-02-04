@@ -30,7 +30,7 @@ case "$1" in
         CO_AUTHOR="Claude <noreply@anthropic.com>"
         ;;
     cursor)
-        CO_AUTHOR="Cursor <cursoragent@cursor.com>"
+        CO_AUTHOR="Cursor <cursoragent@cursor.com>" 
         ;;
     *)
         echo "Error: Invalid option '$1'."
