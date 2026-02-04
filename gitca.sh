@@ -10,9 +10,9 @@ usage() {
     echo "Amends the current git commit with an AI co-author attribution."
     echo ""
     echo "Available options:"
-    echo "  chatgpt  - Co-authored-by: ChatGPT <noreply+ai@openai.com>"
-    echo "  claude   - Co-authored-by: Claude <noreply+ai@anthropic.com>"
-    echo "  cursor   - Co-authored-by: Cursor <cursoragent+ai@cursor.com>"
+    echo "  chatgpt  - Co-authored-by: ChatGPT <noreply@openai.com>"
+    echo "  claude   - Co-authored-by: Claude <noreply@anthropic.com>"
+    echo "  cursor   - Co-authored-by: Cursor <cursoragent@cursor.com>"
     exit 1
 }
 
