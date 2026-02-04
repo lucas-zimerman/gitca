@@ -9,4 +9,4 @@ All you need to do is add `alias gitca='/yourpath/Gitca/gitca.sh` to your PATH a
 
 ## How to use
 
-run `gitca claude` and it will ammend to the last commit from the current directory with the given ai that you have chosen.
+run `gitca claude` and it will amended to the last commit from the current directory with the given ai that you have chosen.
